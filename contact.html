@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Thiago - Contacto</title>
+  </head>
+  <body>
+    <h2 id="tituloContacto">Contactame</h2>
+
+    <form action="post" id="contactar">
+      <legend id="formTitulo">Para más info preguntar aquí!</legend>
+      <br />
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" /><br /><br />
+      <label for="mail">Ingrese su mail:</label>
+      <input type="email" id="mail" /><br /><br />
+      <label for="tema">Eliga el tema a discutir</label>
+      <select name="" id="tema">
+        <option value="-1">Temas...</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JAVASCRIPT">JAVASCRIPT</option></select
+      ><br /><br />
+      <label for="mas">Asunto:</label>
+      <textarea id="mas" cols="10" rows="1"></textarea><br /><br />
+      <input type="button" value="Enviar" />
+    </form>
+
+    <hr />
+
+    <div id="linkPaginas">
+      <ul id="paginas">
+        <li><a href="index.html" title="Página principal">Home</a></li>
+        <li>
+          <a href="projects.html" title="Visita mis proyectos!">Proyectos</a>
+        </li>
+        <li>
+          <a href="skills.html" title="Estas son mis habilidades!">Skills</a>
+        </li>
+        <li><a href="contact.html" title="Contactate conmigo!">Contact</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

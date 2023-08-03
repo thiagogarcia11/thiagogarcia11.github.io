@@ -1,0 +1,116 @@
+
+body{
+    color: rgb(13, 192, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image: url(img/fondo.jpg);
+}
+
+h2{
+    padding-top: 40px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+div#titulo{
+    color: rgb(5, 138, 72);
+    font-size: 12px;
+}
+
+#fotoPerfil{
+    height: 150px;
+    border-radius: 5px;
+}
+
+ul.logos li{
+    display: inline;
+    margin-right: 25px;
+    list-style: none;
+}
+
+.logo{
+    width: 15px;
+}
+
+.logo:hover{
+    width: 20px;
+}
+
+#paginas li{
+    display: inline;
+    list-style: none;
+    margin: 8px;
+}
+
+#paginas li a{
+    text-decoration: none;
+    color: rgb(13, 192, 102);
+}
+
+#paginas li:hover{
+    background-color: rgba(2, 7, 10, 0.493);;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+div#proyectosPrincipales{
+    margin-left: -30%;
+    margin-right: -30%;
+    padding-bottom: 30px;
+}
+
+ul#listaProyectos li{
+    display: inline;
+    list-style: none;
+    margin: 15px;
+}
+
+
+.linksProyectos{
+    height: 80px;
+    border-radius: 15px;
+}
+
+.linksProyectos:hover{
+    height: 90px;
+}
+
+.logoHabilidades{
+    height: 20px;
+    border-radius: 5px
+}
+
+.logoHabilidades:hover{
+    height: 22px
+}
+
+.skillsPresentacion{
+    font-size: 13px;
+    color: rgb(255, 255, 0);
+    padding-bottom: 15px;
+}
+
+.arribaLinea{
+    padding-bottom: 35px;
+}
+
+#contactar{
+    color: white;
+    padding-bottom: 30px;
+}
+
+#formTitulo{
+    font-size: 15px;
+}
+
+#tituloContacto{
+    padding-top: -30px;
+    margin-bottom: -10px;
+}
+
+#contactar input{
+    border-radius: 5px;
+}
